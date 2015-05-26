@@ -1,0 +1,19 @@
+{
+  "name": "battleship",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "battle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wwwbruno/battleship-js.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "gitHead": "8b0f06ee46a92d7cda7360510c18b7f6f6a035af",
+  "dependencies": {
+    "readline-sync": "~1.2.16"
+  }
+}
