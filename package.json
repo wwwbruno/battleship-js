@@ -4,7 +4,7 @@
   "description": "ERROR: No README.md file found!",
   "main": "battle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive -R spec ./unitTests/"
   },
   "repository": {
     "type": "git",
@@ -14,6 +14,12 @@
   "license": "BSD",
   "gitHead": "8b0f06ee46a92d7cda7360510c18b7f6f6a035af",
   "dependencies": {
-    "readline-sync": "~1.2.16"
+    "readline-sync": "~1.2.16",
+    "lodash": "~3.9.3"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4",
+    "sinon": "^1.14.1"
   }
 }
